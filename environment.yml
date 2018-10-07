@@ -1,0 +1,35 @@
+name: twitter
+channels:
+- fastai
+- pytorch
+- defaults
+dependencies:
+- anaconda
+- numpy
+- cuda90
+- cudnn
+- scipy
+- sortedcontainers
+- decorator
+- ipykernel
+- ipython
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- matplotlib
+- pandas
+- path.py
+- bcolz
+- seaborn
+- pip
+- python=3.6.6
+- pytorch<0.4
+- pip:
+  - opencv-python
+  - graphviz
+  - sklearn_pandas
+  - pandas_summary
+  - isoweek
+  - git+https://github.com/fastai/fastai.git
+  - torchtext
